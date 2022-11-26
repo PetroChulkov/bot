@@ -19,7 +19,7 @@ def input_error(func):
     return wrapper
 
 @input_error
-def main():
+def main(): # Основна фуннція - всі input та print реалізовані в цій функції
 
     wait_for_input = True
     while wait_for_input:
