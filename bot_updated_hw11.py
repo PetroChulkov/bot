@@ -5,7 +5,7 @@ from datetime import datetime
 
 class Field:
     def __init__(self, name):
-        # self.value = None
+        self._value = None
         self.value = name
 
     @property
